@@ -1,0 +1,50 @@
+titles:
+  guest:
+    permission: 'group.guest'
+    prefix: '&7Wanderer'
+    suffix: ''
+    order: 10
+    track: 'groups'
+    track-priority: 100
+  player:
+    permission: 'group.player'
+    prefix: '&aExplorer'
+    suffix: ''
+    order: 10
+    track: 'groups'
+    track-priority: 200
+  developer:
+    permission: 'group.developer'
+    prefix: '&5Originator'
+    suffix: ''
+    order: 10
+    track: 'groups'
+    track-priority: 300
+  moderator:
+    permission: 'group.moderator'
+    prefix: '&9Arbiter'
+    suffix: ''
+    order: 10
+    track: 'groups'
+    track-priority: 400
+  admin:
+    permission: 'group.admin'
+    prefix: '&1Executor'
+    suffix: ''
+    order: 10
+    track: 'groups'
+    track-priority: 500
+  operator:
+    permission: 'group.operator'
+    prefix: '&cAvatar'
+    suffix: ''
+    order: 10
+    track: 'groups'
+    track-priority: 1000
+  bestest:
+    permission: 'channels.titles.bestest'
+    prefix: ''
+    suffix: 'the Bestest'
+    order: 10
+    track: ''
+    track-priority: 1000

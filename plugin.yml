@@ -1,0 +1,11 @@
+name: SamChannels
+main: net.samongi.SamChannels.SamChannels
+version: 0.0
+description: Chat manager plugin
+author: Migsect
+depend: [SamongiLib]
+commands: 
+    channel:
+        description: This is the hub command for the plugin.
+        usage: /<command>
+        aliases: [c]

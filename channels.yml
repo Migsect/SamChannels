@@ -1,0 +1,42 @@
+default_chat: Global
+channels:
+  global:
+    name: '&eGlobal'
+    type: SERVER
+    permissions:
+      listen: ''
+      speak: ''
+      chat-color: ''
+      chat-bold: ''
+      chat-underline: ''
+      chat-italic: ''
+      chat-strikethrough: ''
+      chat-magic: ''
+    privacy: public
+    default: true
+    allow-chat-codes: true
+    format: '&7[#{channel}&7] &f#{prefix}#{player_display}#{suffix} &7: &f#{message}'
+    tracks: ['','groups']
+  local:
+    name: '&fLocal'
+    type: RANGE
+    permissions:
+      listen: ''
+      speak: ''
+      chat-color: ''
+      chat-bold: ''
+      chat-underline: ''
+      chat-italic: ''
+      chat-strikethrough: ''
+      chat-magic: ''
+    privacy: public
+    default: true
+    allow-chat-codes: true
+    format: '&7[#{channel}&7] &f#{prefix}#{player_display}#{suffix} &7: &f#{message}'
+    silencing:
+      min: 50
+      max: 75
+    corruption:
+      min: 40
+      max: 110
+    tracks: ['','groups']
